@@ -18,20 +18,7 @@
 		80A7041B196BA77C00D38C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A70419196BA77C00D38C21 /* Main.storyboard */; };
 		80A7041E196BA77C00D38C21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A7041D196BA77C00D38C21 /* ViewController.m */; };
 		80A70420196BA77C00D38C21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A7041F196BA77C00D38C21 /* Images.xcassets */; };
-		80A70427196BA77C00D38C21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A70426196BA77C00D38C21 /* XCTest.framework */; };
-		80A70428196BA77C00D38C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A70407196BA77C00D38C21 /* Foundation.framework */; };
-		80A70429196BA77C00D38C21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A7040B196BA77C00D38C21 /* UIKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		80A7042A196BA77C00D38C21 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80A703FC196BA77C00D38C21 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80A70403196BA77C00D38C21;
-			remoteInfo = FinalStarRatingBarDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		809F16351970D1F700C19159 /* FinalStarRatingBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FinalStarRatingBar.bundle; sourceTree = "<group>"; };
@@ -51,7 +38,6 @@
 		80A7041C196BA77C00D38C21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		80A7041D196BA77C00D38C21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		80A7041F196BA77C00D38C21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		80A70425196BA77C00D38C21 /* FinalStarRatingBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalStarRatingBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A70426196BA77C00D38C21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -63,16 +49,6 @@
 				80A7040A196BA77C00D38C21 /* CoreGraphics.framework in Frameworks */,
 				80A7040C196BA77C00D38C21 /* UIKit.framework in Frameworks */,
 				80A70408196BA77C00D38C21 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80A70422196BA77C00D38C21 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80A70427196BA77C00D38C21 /* XCTest.framework in Frameworks */,
-				80A70429196BA77C00D38C21 /* UIKit.framework in Frameworks */,
-				80A70428196BA77C00D38C21 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				80A70404196BA77C00D38C21 /* FinalStarRatingBarDemo.app */,
-				80A70425196BA77C00D38C21 /* FinalStarRatingBarDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,24 +139,6 @@
 			productReference = 80A70404196BA77C00D38C21 /* FinalStarRatingBarDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80A70424196BA77C00D38C21 /* FinalStarRatingBarDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80A70439196BA77C00D38C21 /* Build configuration list for PBXNativeTarget "FinalStarRatingBarDemoTests" */;
-			buildPhases = (
-				80A70421196BA77C00D38C21 /* Sources */,
-				80A70422196BA77C00D38C21 /* Frameworks */,
-				80A70423196BA77C00D38C21 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80A7042B196BA77C00D38C21 /* PBXTargetDependency */,
-			);
-			name = FinalStarRatingBarDemoTests;
-			productName = FinalStarRatingBarDemoTests;
-			productReference = 80A70425196BA77C00D38C21 /* FinalStarRatingBarDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,11 +147,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = FinalProject;
-				TargetAttributes = {
-					80A70424196BA77C00D38C21 = {
-						TestTargetID = 80A70403196BA77C00D38C21;
-					};
-				};
 			};
 			buildConfigurationList = 80A703FF196BA77C00D38C21 /* Build configuration list for PBXProject "FinalStarRatingBarDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -210,7 +162,6 @@
 			projectRoot = "";
 			targets = (
 				80A70403196BA77C00D38C21 /* FinalStarRatingBarDemo */,
-				80A70424196BA77C00D38C21 /* FinalStarRatingBarDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,13 +175,6 @@
 				80A70412196BA77C00D38C21 /* InfoPlist.strings in Resources */,
 				80A7041B196BA77C00D38C21 /* Main.storyboard in Resources */,
 				809F16381970D1F700C19159 /* FinalStarRatingBar.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80A70423196BA77C00D38C21 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,22 +192,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80A70421196BA77C00D38C21 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		80A7042B196BA77C00D38C21 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80A70403196BA77C00D38C21 /* FinalStarRatingBarDemo */;
-			targetProxy = 80A7042A196BA77C00D38C21 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		80A70410196BA77C00D38C21 /* InfoPlist.strings */ = {
@@ -383,46 +312,6 @@
 			};
 			name = Release;
 		};
-		80A7043A196BA77C00D38C21 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FinalStarRatingBarDemo.app/FinalStarRatingBarDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FinalStarRatingBarDemo/FinalStarRatingBarDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "FinalStarRatingBarDemoTests/FinalStarRatingBarDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		80A7043B196BA77C00D38C21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FinalStarRatingBarDemo.app/FinalStarRatingBarDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FinalStarRatingBarDemo/FinalStarRatingBarDemo-Prefix.pch";
-				INFOPLIST_FILE = "FinalStarRatingBarDemoTests/FinalStarRatingBarDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -440,15 +329,6 @@
 			buildConfigurations = (
 				80A70437196BA77C00D38C21 /* Debug */,
 				80A70438196BA77C00D38C21 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80A70439196BA77C00D38C21 /* Build configuration list for PBXNativeTarget "FinalStarRatingBarDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80A7043A196BA77C00D38C21 /* Debug */,
-				80A7043B196BA77C00D38C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -87,6 +87,9 @@ const NSUInteger DEFAULT_STAR_COUNT = 5;
             self.rating = idx + 1;
             *stop = YES;
         }
+        else{
+            [self setRating:0.f];
+        }
     }];
     return YES;
 }
@@ -98,6 +101,9 @@ const NSUInteger DEFAULT_STAR_COUNT = 5;
         if ([blockSelf touch:touch inStar:obj]) {
             self.rating = idx + 1;
             *stop = YES;
+        }
+        else{
+            [self setRating:0.f];
         }
     }];
     return YES;
